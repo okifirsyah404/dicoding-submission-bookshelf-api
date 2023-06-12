@@ -18,4 +18,6 @@ const init = async () => {
 	server.route(routes);
 };
 
+console.log('Starting server...');
+
 init();
